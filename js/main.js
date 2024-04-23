@@ -73,11 +73,13 @@ function loadProject(url)
                 sidebar.style.color = PROJECT["secondaryColor"];
             }
 
-        })
-        .catch(error => console.error('Error:', error))
-        .finally(() =>
-        {
             loadProjectlists();
+
+        })
+        .catch(error =>
+        {
+            generateOpenProjectDialog();
+            console.error('Error:', error);
         });
 }
 
