@@ -130,16 +130,16 @@ function loadlist(listIndex)
         .then(data =>
         {
             CURRENT_LIST = data;
-            generatePlaylist(CURRENT_LIST["playlists"]);
+            generatePlaylist(CURRENT_LIST["collections"]);
         })
         .catch(error => console.error('Error:', error));
 }
 
-function generatePlaylist(playlists)
+function generatePlaylist(collections)
 {
     const mainContainer = document.getElementById("main");
 
-    playlists.forEach(playlist =>
+    collections.forEach(playlist =>
     {
         const playlistTitle = document.createElement("h2");
         playlistTitle.textContent = playlist["name"];
@@ -148,7 +148,7 @@ function generatePlaylist(playlists)
         const gridContainer = document.createElement("div");
         gridContainer.classList.add("grid-container");
 
-        playlist["videos"].forEach(video =>
+        playlist["items"].forEach(video =>
         {
             const gridItem = document.createElement("div");
             gridItem.classList.add("grid-item");

@@ -1,19 +1,22 @@
 {
-	"playlists": [
+	"collections": [
 		{
 			"name": "Erklärvideos",
-			"videos": [
+			"items": [
 				{
+					"type": "youtube",
 					"title": "How do Video Game Graphics Work?",
 					"url": "https://www.youtube.com/watch?v=C8YtdC8mxTU",
 					"description": "Hier könnte eine Beschreibung stehen"
 				},
 				{
+					"type": "youtube",
 					"title": "100+ Docker Concepts you Need to Know",
 					"url": "https://www.youtube.com/watch?v=rIrNIzy6U_g",
 					"description": "Hier könnte eine Beschreibung stehen"
 				},
 				{
+					"type": "youtube",
 					"title": "How does Satellite Television work?",
 					"url": "https://www.youtube.com/watch?v=OpkatIqkLO8",
 					"description": "Hier könnte eine Beschreibung stehen"
@@ -22,24 +25,29 @@
 		},
 		{
 			"name": "Maker Projects",
-			"videos": [
+			"items": [
 				{
+					"type": "youtube",
 					"title": "Robotic placement - 3d printed automatic screw packaging",
 					"url": "https://www.youtube.com/watch?v=0-m9ING3eas"
 				},
 				{
+					"type": "youtube",
 					"title": "Spherical Parallel Manipulator",
 					"url": "https://www.youtube.com/watch?v=9xmLpHZG5gI"
 				},
 				{
+					"type": "youtube",
 					"title": "Building an ACTUALLY water-cooled PC",
 					"url": "https://www.youtube.com/watch?v=yFswDJPvtPY"
 				},
 				{
+					"type": "youtube",
 					"title": "Building the world's first 'breathing' PC",
 					"url": "https://www.youtube.com/watch?v=C3GKe7eXbPE"
 				},
 				{
+					"type": "youtube",
 					"title": "BUILDING A MARBLE CLOCK",
 					"url": "https://www.youtube.com/watch?v=Qtcqx2pZbrI"
 				}
@@ -47,12 +55,14 @@
 		},
 		{
 			"name": "Technische Kurz-Dokumentationen",
-			"videos": [
+			"items": [
 				{
+					"type": "youtube",
 					"title": "The Self Balancing Monorail",
 					"url": "https://www.youtube.com/watch?v=kUYzuAJeg3M"
 				},
 				{
+					"type": "youtube",
 					"title": "Günstiger und stabiler: Schweden baut das größte Holzwindrad der Welt!",
 					"url": "https://www.youtube.com/watch?v=wvxBdukpFrM"
 				}
