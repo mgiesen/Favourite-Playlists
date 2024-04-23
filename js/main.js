@@ -1,3 +1,6 @@
+let PROJECT_DATA = null;
+let CURRENT_LIST = null;
+
 const sidebarToggleButton = document.querySelector(".toggle-btn");
 
 sidebarToggleButton.addEventListener("click", function ()
@@ -57,20 +60,19 @@ function loadProject(url)
         .then(response => response.json())
         .then(data =>
         {
-            lists = data["lists"];
-            PROJECT = data["project"];
+            PROJECT_DATA = data;
 
-            if (!PROJECT)
+            if (!PROJECT_DATA)
             {
                 return;
             }
 
-            projectTitle.textContent = PROJECT["name"];
+            projectTitle.textContent = PROJECT_DATA["project"]["name"];
 
-            if (PROJECT["primaryColor"] && PROJECT["secondaryColor"])
+            if (PROJECT_DATA["primaryColor"] && PROJECT_DATA["secondaryColor"])
             {
-                sidebar.style.backgroundColor = PROJECT["primaryColor"];
-                sidebar.style.color = PROJECT["secondaryColor"];
+                sidebar.style.backgroundColor = PROJECT_DATA["primaryColor"];
+                sidebar.style.color = PROJECT_DATA["secondaryColor"];
             }
 
             loadProjectlists();
@@ -85,6 +87,8 @@ function loadProject(url)
 
 function loadProjectlists()
 {
+    const lists = PROJECT_DATA["lists"];
+
     const listsMenu = document.getElementById("lists_overview");
     const listsCountLabel = document.getElementById("listsCountLabel");
 
@@ -114,7 +118,7 @@ function loadlist(listIndex)
     const mainContainer = document.getElementById("main");
     mainContainer.innerHTML = "";
 
-    const list = lists[listIndex];
+    const list = PROJECT_DATA["lists"][listIndex];
 
     if (!list)
     {
