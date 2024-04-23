@@ -1,4 +1,5 @@
 {
+	"version": "1.0",
 	"collections": [
 		{
 			"name": "Erklärvideos",
@@ -19,6 +20,29 @@
 					"type": "youtube",
 					"title": "How does Satellite Television work?",
 					"url": "https://www.youtube.com/watch?v=OpkatIqkLO8",
+					"description": "Hier könnte eine Beschreibung stehen"
+				}
+			]
+		},
+		{
+			"name": "Elektronik Werkzeuge",
+			"items": [
+				{
+					"type": "poster",
+					"title": "Krimpzange",
+					"image": "https://media.contorion.de/media/images/products/stier-crimpzange-fuer-aderendhuelsen-sechskant-pressung-16-mm2-66959026-0-HnI-VTqR-xl.jpg",
+					"description": "Hier könnte eine Beschreibung stehen"
+				},
+				{
+					"type": "poster",
+					"title": "Lötkolben",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Soldering_Station_Weller_2.jpeg/1920px-Soldering_Station_Weller_2.jpeg",
+					"description": "Hier könnte eine Beschreibung stehen"
+				},
+				{
+					"type": "poster",
+					"title": "Multimeter",
+					"image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Digital_Multimeter_Aka.jpg",
 					"description": "Hier könnte eine Beschreibung stehen"
 				}
 			]

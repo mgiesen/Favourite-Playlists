@@ -130,51 +130,41 @@ function loadlist(listIndex)
         .then(data =>
         {
             CURRENT_LIST = data;
-            generatePlaylist(CURRENT_LIST["collections"]);
+            generatecollection(CURRENT_LIST["collections"]);
         })
         .catch(error => console.error('Error:', error));
 }
 
-function generatePlaylist(collections)
+function generatecollection(collections)
 {
     const mainContainer = document.getElementById("main");
 
-    collections.forEach(playlist =>
+    collections.forEach(collection =>
     {
-        const playlistTitle = document.createElement("h2");
-        playlistTitle.textContent = playlist["name"];
-        mainContainer.appendChild(playlistTitle);
+        const collectionTitle = document.createElement("h2");
+        collectionTitle.textContent = collection["name"];
+        mainContainer.appendChild(collectionTitle);
 
         const gridContainer = document.createElement("div");
         gridContainer.classList.add("grid-container");
 
-        playlist["items"].forEach(video =>
+        collection["items"].forEach(item =>
         {
             const gridItem = document.createElement("div");
             gridItem.classList.add("grid-item");
 
-            const videoLink = document.createElement("a");
-            videoLink.href = video["url"];
+            switch (item["type"])
+            {
+                case "youtube":
+                    handleYouTube(item, gridItem);
+                    break;
+                case "poster":
+                    handlePoster(item, gridItem);
+                    break;
+                default:
+                    console.log("Unsupported item type");
+            }
 
-            const videoImage = document.createElement("img");
-            videoImage.src = `https://img.youtube.com/vi/${video["url"].split("v=")[1]}/hqdefault.jpg`;
-
-            const gridItemData = document.createElement("div");
-            gridItemData.classList.add("grid-item-data");
-
-            const videoTitle = document.createElement("h3");
-            videoTitle.textContent = video["title"];
-
-            const videoDescription = document.createElement("p");
-            videoDescription.textContent = video["description"];
-
-            gridItemData.appendChild(videoTitle);
-            gridItemData.appendChild(videoDescription);
-
-            videoLink.appendChild(videoImage);
-            videoLink.appendChild(gridItemData);
-
-            gridItem.appendChild(videoLink);
             gridContainer.appendChild(gridItem);
         });
 
@@ -182,3 +172,53 @@ function generatePlaylist(collections)
     });
 }
 
+function handleYouTube(item, gridItem)
+{
+    const itemContainer = document.createElement("a");
+    itemContainer.href = item["url"];
+
+    const thumbnail = document.createElement("img");
+    thumbnail.src = `https://img.youtube.com/vi/${item["url"].split("v=")[1]}/hqdefault.jpg`;
+
+    const gridItemData = document.createElement("div");
+    gridItemData.classList.add("grid-item-data");
+
+    const videoTitle = document.createElement("h3");
+    videoTitle.textContent = item["title"];
+
+    const videoDescription = document.createElement("p");
+    videoDescription.textContent = item["description"] || "No description available.";
+
+    gridItemData.appendChild(videoTitle);
+    gridItemData.appendChild(videoDescription);
+
+    itemContainer.appendChild(thumbnail);
+    itemContainer.appendChild(gridItemData);
+
+    gridItem.appendChild(itemContainer);
+}
+
+function handlePoster(item, gridItem)
+{
+    const itemContainer = document.createElement("div");
+
+    const poster = document.createElement("img");
+    poster.src = item["image"];
+
+    const gridItemData = document.createElement("div");
+    gridItemData.classList.add("grid-item-data");
+
+    const videoTitle = document.createElement("h3");
+    videoTitle.textContent = item["title"];
+
+    const videoDescription = document.createElement("p");
+    videoDescription.textContent = item["description"] || "No description available.";
+
+    gridItemData.appendChild(videoTitle);
+    gridItemData.appendChild(videoDescription);
+
+    itemContainer.appendChild(poster);
+    itemContainer.appendChild(gridItemData);
+
+    gridItem.appendChild(itemContainer);
+}
