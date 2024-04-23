@@ -28,22 +28,16 @@
 				</div>
 				<ul class="sidebar-nav">
 					<li class="sidebar-item">
-						<a href="#" class="sidebar-link">
+						<a href="#" class="sidebar-link" data-bs-toggle="modal" data-bs-target="#modalChangeProject">
 							<i class="bi bi-folder2-open"></i>
 							<span>Projekt wechseln</span>
-						</a>
-					</li>
-					<li class="sidebar-item">
-						<a href="#" class="sidebar-link">
-							<i class="bi bi-download"></i>
-							<span>Projekt herunterladen</span>
 						</a>
 					</li>
 					<li class="sidebar-item">
 						<a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#lists_overview">
 							<i class="bi bi-kanban"></i>
 							<span>Listen</span>
-							<span id="listsCountLabel">8</span>
+							<span id="listsCountLabel">(0)</span>
 						</a>
 						<ul id="lists_overview" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar"></ul>
 					</li>
@@ -57,25 +51,42 @@
 			</aside>
 
 			<!-- Main -->
-			<div class="main p-4" id="main">
-				<div class="placeholder-glow">
-					<h1 class="placeholder col-6"></h1>
-					<div class="placeholder col-12" style="height: 100px"></div>
+			<div class="main p-4" id="main"></div>
+		</div>
+
+		<!-- Modal Projekt wechseln -->
+		<div class="modal fade" id="modalChangeProject" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalChangeProjectLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Projekt wechseln</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="mb-3">
+								<label for="textboxProjectURL" class="form-label">Projekt URL eingeben</label>
+								<input type="url" class="form-control" id="textboxProjectURL" placeholder="https://raw.githubusercontent.com/user/gitlist.json" />
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary">Projekt öffnen</button>
+					</div>
 				</div>
-				<div class="my-5"></div>
-				<div class="placeholder-glow">
-					<h1 class="placeholder col-6"></h1>
-					<div class="placeholder col-12" style="height: 100px"></div>
-				</div>
-				<div class="my-5"></div>
-				<div class="placeholder-glow">
-					<h1 class="placeholder col-6"></h1>
-					<div class="placeholder col-12" style="height: 100px"></div>
-				</div>
-				<div class="my-5"></div>
-				<div class="placeholder-glow">
-					<h1 class="placeholder col-6"></h1>
-					<div class="placeholder col-12" style="height: 100px"></div>
+			</div>
+		</div>
+
+		<!-- Templates -->
+		<div class="templates">
+			<div id="t-open-project-dialog">
+				<div class="d-flex justify-content-center align-items-center flex-column" style="height: 100%">
+					<div id="open-project-dialog" data-bs-toggle="modal" data-bs-target="#modalChangeProject">
+						<h1>Schön dass du da bist</h1>
+						<p>Hier klicken, um ein bestimmtes Projekt zu öffnen</p>
+						<div class="bi bi-folder2-open"></div>
+					</div>
+					<a href="?project=data/projectExample.json">Beispielprojekt öffnen</a>
 				</div>
 			</div>
 		</div>

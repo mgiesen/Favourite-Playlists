@@ -7,8 +7,27 @@ sidebarToggleButton.addEventListener("click", function ()
 
 document.addEventListener("DOMContentLoaded", function ()
 {
-    loadProject('data/projectExample.json');
+    // Prüfen ob ein Projekt in der URL übergeben wurde
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectUrl = urlParams.get('project');
+
+    if (projectUrl)
+    {
+        loadProject(projectUrl);
+    }
+    else
+    {
+        generateOpenProjectDialog();
+    }
+
+    //Debugging: ?project=data/projectExample.json
 });
+
+function generateOpenProjectDialog()
+{
+    const mainContainer = document.getElementById("main");
+    mainContainer.innerHTML = document.getElementById("t-open-project-dialog").innerHTML;
+}
 
 function loadProject(url)
 {
