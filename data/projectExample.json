@@ -7,16 +7,8 @@
 	},
 	"lists": [
 		{
-			"name": "YouTube Gold",
+			"name": "Beispielliste",
 			"url": "data/listExample.json"
-		},
-		{
-			"name": "Hier gibt es nichts zu sehen",
-			"url": ""
-		},
-		{
-			"name": "Ich bin noch leer",
-			"url": ""
 		}
 	]
 }

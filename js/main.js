@@ -5,6 +5,8 @@ sidebarToggleButton.addEventListener("click", function ()
     document.querySelector("#sidebar").classList.toggle("expand");
 });
 
+document.querySelector('#modalChangeProject .btn-primary').addEventListener('click', openProject);
+
 document.addEventListener("DOMContentLoaded", function ()
 {
     // Prüfen ob ein Projekt in der URL übergeben wurde
@@ -27,6 +29,23 @@ function generateOpenProjectDialog()
 {
     const mainContainer = document.getElementById("main");
     mainContainer.innerHTML = document.getElementById("t-open-project-dialog").innerHTML;
+}
+
+function openProject()
+{
+    var modalElement = document.getElementById('modalChangeProject');
+    var modalInstance = bootstrap.Modal.getInstance(modalElement);
+    modalInstance.hide();
+
+    const projectUrlTextbox = document.getElementById('textboxProjectURL');
+    var projectUrl = projectUrlTextbox.value;
+
+    projectUrlTextbox.value = "";
+
+    if (projectUrl)
+    {
+        loadProject(projectUrl);
+    }
 }
 
 function loadProject(url)
