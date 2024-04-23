@@ -1,0 +1,22 @@
+{
+	"project": {
+		"name": "Max Giesen",
+		"primaryColor": "",
+		"secondaryColor": "",
+		"url": "https://github.com/mgiesen"
+	},
+	"lists": [
+		{
+			"name": "YouTube Gold",
+			"url": "data/listExample.json"
+		},
+		{
+			"name": "Hier gibt es nichts zu sehen",
+			"url": ""
+		},
+		{
+			"name": "Ich bin noch leer",
+			"url": ""
+		}
+	]
+}

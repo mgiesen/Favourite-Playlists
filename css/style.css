@@ -24,12 +24,20 @@ h2 {
 	font-size: 1.25rem;
 }
 
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
 	display: flex;
+	min-height: 100%;
 }
 
 .main {
@@ -38,4 +46,5 @@ body {
 	overflow: hidden;
 	transition: all 0.35s ease-in-out;
 	background-color: #fafbfe;
+	overflow-y: auto;
 }
