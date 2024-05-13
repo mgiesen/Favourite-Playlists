@@ -92,17 +92,23 @@ function loadProjectlists()
     const listsMenu = document.getElementById("lists_overview");
     const listsCountLabel = document.getElementById("listsCountLabel");
 
-    lists.innerHTML = "";
+    listsMenu.innerHTML = "";
 
     listsCountLabel.textContent = `(${lists.length})`;
 
-    lists.forEach(list =>
+    let list_index = 0;
+
+    lists.forEach((list, index) =>
     {
+        list_index++;
         const listItem = document.createElement("li");
         listItem.classList.add("sidebar-item");
 
         const listLink = document.createElement("a");
-        listLink.href = "#";
+        listLink.onclick = () =>
+        {
+            loadlist(index);
+        };
         listLink.classList.add("sidebar-link");
         listLink.textContent = list["name"];
 
@@ -110,7 +116,7 @@ function loadProjectlists()
         listsMenu.appendChild(listItem);
     });
 
-    loadlist(0);
+    loadlist(1);
 }
 
 function loadlist(listIndex)
@@ -206,8 +212,15 @@ function handlePoster(item, gridItem)
 {
     const itemContainer = document.createElement("div");
 
+    const posterLink = item["url"] ? document.createElement("a") : document.createElement("span");
+    if (item["url"])
+    {
+        posterLink.href = item["url"];
+    }
+
     const poster = document.createElement("img");
     poster.src = item["image"];
+    posterLink.appendChild(poster);
 
     const gridItemData = document.createElement("div");
     gridItemData.classList.add("grid-item-data");
@@ -215,13 +228,16 @@ function handlePoster(item, gridItem)
     const videoTitle = document.createElement("h3");
     videoTitle.textContent = item["title"];
 
-    const videoDescription = document.createElement("p");
-    videoDescription.textContent = item["description"] || "No description available.";
-
     gridItemData.appendChild(videoTitle);
-    gridItemData.appendChild(videoDescription);
 
-    itemContainer.appendChild(poster);
+    if (item["description"])
+    {
+        const videoDescription = document.createElement("p");
+        videoDescription.textContent = item["description"] || "No description available.";
+        gridItemData.appendChild(videoDescription);
+    }
+
+    itemContainer.appendChild(posterLink);
     itemContainer.appendChild(gridItemData);
 
     gridItem.appendChild(itemContainer);

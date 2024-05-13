@@ -197,6 +197,7 @@ a.sidebar-link:hover {
 
 .sidebar-item {
 	position: relative;
+	cursor: pointer;
 }
 
 #sidebar:not(.expand) .sidebar-item .sidebar-dropdown {

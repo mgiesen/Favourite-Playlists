@@ -1,0 +1,299 @@
+{
+	"version": "1.0",
+	"collections": [
+		{
+			"name": "Dokumentationen und Wissenschaft",
+			"items": [
+				{
+					"type": "poster",
+					"title": "Freethink",
+					"url": "https://www.youtube.com/@freethink",
+					"image": "https://yt3.googleusercontent.com/ZnkcYFzLZqTSjM4BA6rDMfLhjUylb9wmeveNgdSvIH5fimma_SUR6kYg8rCiXkmxGkNR6E8cvQ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "Freethink is a platform for the people and ideas that are changing our world. We believe that together we can move the world forward, one remarkable story at a time."
+				},
+				{
+					"type": "poster",
+					"title": "Veritasium",
+					"url": "https://www.youtube.com/@veritasium",
+					"image": "https://yt3.googleusercontent.com/ZVhNjUB5W1vNMnBN61pJje8UH8AJf6YKbcOOhIDgL7zluEuXw71GMFlCBZIdUYAAR9ti4fF9=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "An element of truth - videos about science, education, and anything else I find interesting."
+				},
+				{
+					"type": "poster",
+					"title": "SmarterEveryDay",
+					"url": "https://www.youtube.com/@smartereveryday",
+					"image": "https://yt3.googleusercontent.com/_IH_tr9iKav_hsWZJodkN5uMTAYfOtDBVXtzsYeeNSUJBN9K3ZNAFTrmPQs2FunPETkKrtJ1Pg=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "SmarterEveryDay is a science YouTube channel that is all about making you smarter every day. I shoot all the videos in HD using high-speed cameras. I used to teach engineering courses in the early 2000's and I enjoy sharing my love of science, engineering, and education with the world."
+				},
+				{
+					"type": "poster",
+					"title": "Steve Mould",
+					"url": "https://www.youtube.com/@SteveMould",
+					"image": "https://yt3.googleusercontent.com/KcVzeq9wUjTxxRp7K7wNxOfCwaxmMBfUBzNKoHxwRMwYstn4ZPexQmYZ-Epvu1K5HEKOgW59cEA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "ColdFusion",
+					"url": "https://www.youtube.com/coldfusion",
+					"image": "https://yt3.googleusercontent.com/3Tny36PuYogSYdcMFfaX5ZA-i3LLZ4krWnXXkaryDPp7vnibYnFfTOZe1VV4Kvakt5Uvo2TDbGQ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Asianometry",
+					"url": "https://www.youtube.com/@Asianometry",
+					"image": "https://yt3.googleusercontent.com/BkPLt627VJDtspEOcksWX_PHJ0VhVVFUETEhSYKOriuxSVIqKXw1PeSbdPoRYldwO8kOcT3bRA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Practical Engineering",
+					"url": "https://www.youtube.com/@PracticalEngineeringChannel",
+					"image": "https://yt3.googleusercontent.com/_JY1NuOvvwl_8HQN470Zi0k6-uBWsyi97cDih_Hxjlv887LKFaMlM1m4foRSa3LkfQEqKNrQ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Second Thought",
+					"url": "https://www.youtube.com/@SecondThought",
+					"image": "https://yt3.googleusercontent.com/pnt83vZ6lOIxZRw9sN6z5Y2fpzj9L0-hHUk3nZOGuqRHv2-GHhattH7f1U3aR7MMEpGJ38qWdQ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Lesics",
+					"url": "https://www.youtube.com/@Lesics/videos",
+					"image": "https://yt3.googleusercontent.com/9ugAjKSi2atlMrNFUan7MaegJQ0r-obu8nvLwL8HbWyNUS1EzaIRKppdvN1tFf4oZVWuROFM=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Real Engineering",
+					"url": "https://www.youtube.com/@RealEngineering",
+					"image": "https://yt3.googleusercontent.com/xy4htt_8w0avBG0lu-HPoz4EH7rHJOwJ6wz2NlmeCjIGQTidLXqi_2VyizXRr8geU9xsEU3YNKg=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "YouTube Shows",
+			"items": [
+				{
+					"type": "poster",
+					"title": "MOSFET",
+					"url": "https://www.youtube.com/@MOSFETnet",
+					"image": "https://img.youtube.com/vi/aUERPeeOTl8/hqdefault.jpg",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "100SekundenPhysik",
+					"url": "https://www.youtube.com/@100SekundenPhysik",
+					"image": "https://yt3.googleusercontent.com/iKBLpaIMkbvmeWfamziZFwdSTYbKelhnQjIIRmik03l9QKYk6XTPDTug8vjH2UEtDGqD_hRy=w2120-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Maker",
+			"items": [
+				{
+					"type": "poster",
+					"title": "Marius Hornberger",
+					"url": "https://www.youtube.com/@MariusHornberger",
+					"image": "https://yt3.googleusercontent.com/AMTaraA_21VLXH_kspuc0wzEnTJ0CWQXfz3vaSRFpxjkf8ZkugAu-jUNAHicC0gRCWnTtW6C6A=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Stuff Made Here",
+					"url": "https://www.youtube.com/@StuffMadeHere",
+					"image": "https://yt3.googleusercontent.com/OOngB_Xrem5z-3t3mMU57hHnPd_lbplwjMyJAgs7ANCBfLdfLcBL8RSqrgQ0mm0pEFLcdOyMsQ=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "I've been building things for as long as I can remember. It all started when my dad exposed me to plastic model building and soldering when I was around 4 years old. That set me on a path to building increasingly complex things and becoming an engineer. My goal is to do the same for as many people as possible by exposing them to the joy of engineering, fabricating and creating things out of nothing. If I'm lucky a few people may become engineers, which would be great for the world. Engineering is awesome."
+				},
+				{
+					"type": "poster",
+					"title": "bitluni",
+					"url": "https://www.youtube.com/@bitlunislab",
+					"image": "https://yt3.googleusercontent.com/xNozP_15BSYp1B9hRbBzn8AP6q8MaewPO6E9Ba5TeS3jD70P8bFiN9iZp46XD9T0zYkkjqCOdFc=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "On bitluni's lab, you can find elaborate and funny tutorial videos about building gadgets. Nerdy entertainment guaranteed! Since this is my passion I started to do YouTube full time since August 2017. This way we can create more projects and you can enjoy a new video every week."
+				},
+				{
+					"type": "poster",
+					"title": "GreatScott!",
+					"url": "https://www.youtube.com/@greatscottlab",
+					"image": "https://yt3.googleusercontent.com/LMozm7gF6GJBFwKUXKtU5CPRTLs8xgZSB9iUKtySnozsuqybHcwQVUjm_FYEpFMduiLMUOmcDw=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "On bitluni's lab, you can find elaborate and funny tutorial videos about building gadgets. Nerdy entertainment guaranteed! Since this is my passion I started to do YouTube full time since August 2017. This way we can create more projects and you can enjoy a new video every week."
+				},
+				{
+					"type": "poster",
+					"title": "Integza",
+					"url": "https://www.youtube.com/@integza",
+					"image": "https://yt3.googleusercontent.com/Zo-_tTgiCNZwKR_8GPvLqAs0PbG37NksyonhE_cpQlUROExaVaA5CXw5zbmmDBiffa-JKFJ4tCM=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "DIY Perks",
+					"url": "https://www.youtube.com/@DIYPerks",
+					"image": "https://yt3.googleusercontent.com/NjbVTqe_sqKlyavDoPaOEtgMoaGvD-mZu_iEsjJswLlZ4bqxWZsPwz_TqTT1I5-Y4ys2zbAthg=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Aaed Musa",
+					"url": "https://www.youtube.com/@aaedmusa",
+					"image": "https://yt3.googleusercontent.com/ktTcskr7bgr2uqTWHKedbTcHCROKXVkx1YJhi8uggIB-Zve-VOlGKbkWWREpGJL3lzHbI_SD=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Christopher Helmke",
+					"url": "https://www.youtube.com/@christopherhelmke",
+					"image": "https://yt3.googleusercontent.com/Tx1WIQrp64_qw1ymlc0MdVDQtvar0aqg_BRgwrZu-h2_KVsmIj_U89b16OKJ4NuGjU8P_KNSrg=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "ALEX LAB",
+					"url": "https://www.youtube.com/@ALEXLAB/videos",
+					"image": "https://yt3.googleusercontent.com/qyrGYWEOtb1_JPEwBvSpBT8_XRi5XD-xEu_n1frAbSUBZ-f6SmoTu7lrE_mA9XCy3POxJI6Ij44=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "maker.moekoe",
+					"url": "https://www.youtube.com/@makermoekoe",
+					"image": "https://yt3.googleusercontent.com/t7fmVFDM2wg3KCEREYIByW5hu-y-IGHcCc-BVmFG3U3QnqNIjcVV3o1uwSuEt4F1JAWd24hlgA=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Tom Stanton",
+					"url": "https://www.youtube.com/tomstantonengineering",
+					"image": "https://yt3.googleusercontent.com/7yhHp4PCpqq9jC6fmm4RJ91kU_0oFBxwYC0bhjthyVxiBbzfrIyeIJ1CA-KyOUtggnFmM5Oj-w=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Maker B",
+					"url": "https://www.youtube.com/@MakerB",
+					"image": "https://yt3.googleusercontent.com/AfaoH8RF_F98mGQb8toH4SPq_GaCaGy9mZ8orFA8zfoxF9vrRO8oe1xgzNoTIyDcUIRn7_ce2w=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "I Like To Make Stuff",
+					"url": "https://www.youtube.com/@Iliketomakestuff",
+					"image": "https://yt3.googleusercontent.com/lgzplAB-wBg9QnMeBQcmhqPUQlYv2t93OA2D1VcoE0yo1fRrTfS9Y-Jt8SoYuu5Trf9uLmGgEog=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "colinfurze",
+					"url": "https://www.youtube.com/@colinfurze",
+					"image": "https://yt3.googleusercontent.com/muZ52UEfOPu69FcRAimtNGKiU-Xsu3Z3uhkZx6bL0sRwX60vHFke_T0DseV-6BdYjUhgbSp8trY=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Primär Bildung",
+			"items": [
+				{
+					"type": "poster",
+					"title": "Branch Education",
+					"url": "https://www.youtube.com/@BranchEducation",
+					"image": "https://yt3.googleusercontent.com/3X1e1GvgvvMHIwUhi8wv6y4q6Xpl4juQ3Y2ValbQ-dFj_u3-XMvI3JW6ZWexv4qWwb_c7Bc14g=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Jared Owen",
+					"url": "https://www.youtube.com/@JaredOwen",
+					"image": "https://yt3.googleusercontent.com/EbxRsyiC0GoAofxfmqPQk1lkB98eQkDb6YrYLde2BtkMH3muL235FGzyxLEcUF30NZqRjVnmifU=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Jan Yellow",
+					"url": "https://www.youtube.com/@JanYellow",
+					"image": "https://yt3.googleusercontent.com/o7TP2ZK8hpwKG0tPwqLJihl26F89evg0uC1Xkoowyil4bsrzgzqCjagTIxwd0AmM4KThacSkLg=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Jörn Loviscach",
+					"url": "https://www.youtube.com/@JoernLoviscach",
+					"image": "https://yt3.googleusercontent.com/56GiAOu20V4qD4w8kxD0gBu1UFVoHQulDyf1mctIlQc0gB81c8i3w9a7OzR39UBtyuFvyP7U71s=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Mehrheitlich Maker Knowledgesharing",
+			"items": [
+				{
+					"type": "poster",
+					"title": "Andreas Spiess",
+					"url": "https://www.youtube.com/@AndreasSpiess",
+					"image": "https://yt3.googleusercontent.com/hvYvWMrsloK4lgFkL9_2dp50DIrbdr6JccZE8L7s7SDsdv2Qt9QRuRd9RoCFg38zZmlyOat4ak4=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "Small electronic projects, tutorials, and reviews for sensors, ESP8266, Arduino, Raspberry Pi, and ESP32"
+				},
+				{
+					"type": "poster",
+					"title": "Phil’s Lab",
+					"url": "https://www.youtube.com/@PhilsLab",
+					"image": "https://yt3.googleusercontent.com/Ye6nCtlcTbKTvlvUwJqCzUbcezEWE4gc4aPzdZkWbEyOQrHlmTAeg-edr-p1-gFZHNu4Z_Z9SQI=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "Analog and digital electronics design, PCB design, control systems, digital signal processing, and more!"
+				},
+				{
+					"type": "poster",
+					"title": "CNC Kitchen",
+					"url": "https://www.youtube.com/@CNCKitchen",
+					"image": "https://yt3.googleusercontent.com/C0xTGUooHJFUvP2y6keC5izziHCWkIXfx-Ungoj4VBr3uwrTmy1JQxRPAG_j_VcQLh4wTY0S=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "Hi, I'm Stefan and I create educating and entertaining videos for you which feature 3D printing, CNC, CAD, Lasers, Arduino and much more tec stuff!"
+				}
+			]
+		},
+		{
+			"name": "Softwareentwicklung",
+			"items": [
+				{
+					"type": "poster",
+					"title": "Hyperplexed",
+					"url": "https://www.youtube.com/@Hyperplexed",
+					"image": "https://yt3.googleusercontent.com/tC34kVMbarY5dQmeyO2_Cc46aTK7idQt0YdsHkt_W0BKUVlb-yAZTKRTh3cKCu8cmWl5CSIF=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": "Doing my best to show you how to recreate some awesome stuff from around the web and give you a bit of insight into my creative process."
+				},
+				{
+					"type": "poster",
+					"title": "Brotcrunsher",
+					"url": "https://www.youtube.com/@Brotcrunsher",
+					"image": "https://yt3.googleusercontent.com/a3TicepK5D_JvI9c616iqMCLlvL8J-ot-mdRIuboGl0_sTSbwIAW6goR0OWnDacL-zq2uCoC2A=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				},
+				{
+					"type": "poster",
+					"title": "Kevin Powell",
+					"url": "https://www.youtube.com/@KevinPowell",
+					"image": "https://yt3.googleusercontent.com/HsOID_2Ri-jtwLjcRyT6c0CqH9hmSJgJDhmlcFPID77EtAZKZSwCjlWOLN9I4vEM1kmzrTszWw=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				}
+			]
+		},
+		{
+			"name": "Computertechnik und Elektronik",
+			"items": [
+				{
+					"type": "poster",
+					"title": "Ben Eater",
+					"url": "https://www.youtube.com/@BenEater",
+					"image": "https://yt3.googleusercontent.com/S29wEjoodDYZ7RTVEtF30KrFOKABSlqphjNwGzC8RCslsketGsynfUKr8aSpXWMBFAZH9AAP=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+					"description": ""
+				}
+			]
+		}
+	]
+}
